@@ -15,6 +15,7 @@ const Header = props => (
     </h1>
     <h3 className="tagline">
       <span>{props.tagline}</span>
+      {/* tagline property assigned AND passed down within Header tag in App.js */}
     </h3>
   </header>
 );
