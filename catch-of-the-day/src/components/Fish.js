@@ -16,10 +16,10 @@ class Fish extends Component {
         <p>{desc}</p>
         <button
           disabled={!isAvailable}
-          onClick={() => this.props.addToOrder(this.props.index)}
-        >
+          onClick={() => this.props.addToOrder(this.props.index)}>
           {isAvailable ? "Add to Order" : "Sold Out!"}
         </button>
+        
       </li>
     );
   }

@@ -44,7 +44,7 @@ class AddFishForm extends Component {
           type="text"
           placeholder="Image"
         />
-        <button typ="submit">+ Add Fish</button>
+        <button type="submit">+ Add Fish</button>
       </form>
     );
   }
